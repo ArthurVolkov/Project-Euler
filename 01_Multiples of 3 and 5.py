@@ -21,3 +21,18 @@ def multiples():
 
 if __name__ == '__main__':
     multiples()
+
+    
+# Arthur version:
+
+
+def mult_3_5():
+    total = 0
+    for num in range(1000):
+        if num % 3 == 0 or num % 5 == 0:
+            total += num
+    print(total)
+
+
+if __name__ == '__main__':
+    mult_3_5()
